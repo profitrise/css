@@ -53,7 +53,7 @@ ul > li {
 .five-task ul:last-child li:last-child {
   color: white;
 }
-.only-child-task section div:only-child {
+.only-child-task div:only-child {
   color: red;
 }
 .seven-task p:first-of-type {
