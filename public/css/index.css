@@ -5,7 +5,8 @@
   color: black;
 }
 h1:only-of-type {
-  color: blue;
+  background-color: blue;
+  color: black;
 }
 .green {
   color: green;
@@ -14,7 +15,7 @@ h1:only-of-type {
   color: blue;
 }
 .box p {
-  color: red;
+  background-color: red;
 }
 .box div {
   background-color: green;
@@ -37,23 +38,17 @@ ul > li {
 #bread {
   background-color: yellow;
 }
-li:first-child {
+.first-task li:first-child {
   color: white;
 }
-li:first-child {
-  color: yellow;
-}
-li:first-child {
-  color: white;
-}
-.second-task ul:first-child li:first-child {
+.second-task ul:first-of-type li:first-child {
   color: yellow;
 }
 .third-task ul:last-of-type li:first-child {
-  color: yellow;
+  background-color: yellow;
 }
-.four-task li:last-child {
-  color: yellow;
+.four-task ul:last-of-type li:last-child {
+  background-color: yellow;
 }
 .five-task ul:last-child li:last-child {
   color: white;
@@ -77,7 +72,7 @@ section div:only-child {
   color: yellow;
 }
 .lesson-three-task-three li[value='3'] {
-  background-color: red;
+  background-color: blue;
 }
 .lesson-three-task-four button[class~='primary'] {
   background-color: blue;
