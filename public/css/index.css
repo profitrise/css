@@ -1,0 +1,120 @@
+:root {
+  background: white;
+}
+* {
+  color: black;
+}
+h1:only-of-type {
+  color: blue;
+}
+.green {
+  color: green;
+}
+#blue {
+  color: blue;
+}
+.box p {
+  color: red;
+}
+.box div {
+  background-color: green;
+}
+.brown {
+  background-color: brown;
+  color: white;
+}
+ul > li {
+  background-color: red;
+}
+.header-button + span {
+  background-color: red;
+}
+.susid ~ p {
+  background-color: blue;
+  color: white;
+}
+.salo,
+#bread {
+  background-color: yellow;
+}
+li:first-child {
+  color: white;
+}
+li:first-child {
+  color: yellow;
+}
+li:first-child {
+  color: white;
+}
+.second-task ul:first-child li:first-child {
+  color: yellow;
+}
+.third-task ul:last-of-type li:first-child {
+  color: yellow;
+}
+.four-task li:last-child {
+  color: yellow;
+}
+.five-task ul:last-child li:last-child {
+  color: white;
+}
+section div:only-child {
+  color: red;
+}
+.seven-task p:first-of-type {
+  background-color: red;
+}
+.eight-task p:last-of-type {
+  background-color: red;
+}
+.text-wrapper p:only-of-type {
+  background-color: yellow;
+}
+.lesson-three-task-one a[href] {
+  color: white;
+}
+.lesson-three-task-two li[value] {
+  color: yellow;
+}
+.lesson-three-task-three li[value='3'] {
+  background-color: red;
+}
+.lesson-three-task-four button[class~='primary'] {
+  background-color: blue;
+}
+/* [atr|="value"] */
+.lesson-three-task-five button[class|='secondary'] {
+  background-color: red;
+}
+/* [atr^="value"] Селектор початку значення атрибута */
+.lesson-three-task-six li[class^='b'] {
+  background-color: white;
+  color: green;
+}
+/* [atr*="value"] Селектор кореня значення атрибута */
+/* [atr$="value"] Селектор кінцівки значення атрибута */
+.lesson-three-task-seven li[class*='on'] {
+  background-color: white;
+  color: green;
+}
+.lesson-three-task-eight span[class$='s'] {
+  background-color: white;
+  color: blue;
+}
+/* p::first-line  Селектор псевдоелемента першого рядка*/
+.lesson-three-task-nine ::first-letter {
+  color: red;
+}
+.lesson-three-task-ten ::first-line {
+  background-color: yellow;
+}
+/* input::placeholder */
+.lesson-three-task-eleven input::placeholder {
+  background-color: red;
+}
+.lesson-three-task-twelve li::before {
+  content: '➤';
+}
+.lesson-three-task-thirteen li::after {
+  content: '➤';
+}
